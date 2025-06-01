@@ -22,7 +22,7 @@ function replaceWords(expr) {
     const regex = new RegExp(word, "g");
     expr = expr.replace(regex, wordsToSymbols[word]);
   }
-  return expr.replace(/[^\d+\-*/.]/g, ''); // Remove unwanted characters
+  return expr.replace(/[^\d+\-*/.]/g, ''); 
 }
 
 startBtn.onclick = () => {
