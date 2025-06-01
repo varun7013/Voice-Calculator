@@ -1,0 +1,91 @@
+/* Peaceful colors and soft design */
+body {
+  font-family: 'Didact Gothic', 'Futura', sans-serif;
+  background: linear-gradient(145deg, #dceefb, #e0f2f1); /* Light blue-green gradient */
+  margin: 0;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Container box */
+.container {
+  text-align: center;
+  background: white;
+  padding: 40px;
+  border-radius: 25px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
+  position: relative;
+  z-index: 2;
+}
+
+/* Heading */
+h1.futura {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #3f51b5; /* Soft blue */
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+  margin-bottom: 15px;
+}
+
+/* Subtitle */
+.subtitle {
+  font-size: 1.1rem;
+  color: #607d8b; /* Cool gray-blue */
+  margin-bottom: 30px;
+}
+
+/* Start button */
+#start-btn {
+  padding: 15px 30px;
+  font-size: 18px;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(76, 175, 80, 0.4);
+}
+
+#start-btn:hover {
+  background-color: #43a047;
+  transform: scale(1.05);
+}
+
+/* Output display */
+#output {
+  margin-top: 30px;
+  font-size: 1.3rem;
+  color: #333;
+  white-space: pre-line;
+}
+
+/* Decorative circles */
+.decorative-circle {
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.3;
+  z-index: 1;
+}
+
+.top-left {
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(circle, #aedff7, #dceefb);
+  top: -100px;
+  left: -100px;
+}
+
+.bottom-right {
+  width: 250px;
+  height: 250px;
+  background: radial-gradient(circle, #c8e6c9, #e0f2f1);
+  bottom: -80px;
+  right: -80px;
+}
